@@ -1,23 +1,3 @@
-Camera–LiDAR perception demo using KITTI dataset.
-Includes YOLOv8 2D detection, monocular depth approximation (MiDaS),
-and KITTI ground-truth 3D bounding boxes visualized in both image
-and LiDAR space for autonomous robotics research.
-
-📁 Structure
-kitti-yolov8-3d-approx-perception/
-│
-├── README.md
-├── requirements.txt
-├── kitti_3d_bbox_demo.py
-│
-├── assets/
-│   ├── demo_1.png
-│   ├── demo_2.png
-│   ├── demo_3.png
-│
-└── .gitignore
-
- 
 # KITTI Perception Demo: YOLOv8 + Depth + 3D Bounding Boxes
 
 This repository demonstrates a **robotics-grade perception pipeline**
